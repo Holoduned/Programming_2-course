@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.login_bottom_row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 48px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  justify-content: center;
+  background-color: #181a21;
+}
+.login_bottom_row_item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+.join_image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+.join_field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+.join_buttom {
+  margin: 20px 0 10px 0;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+  padding: 1px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #fff !important;
+  background: transparent;
+}
+.subtext {
+  font-size: 14px;
+  color: #b8b6b4;
+  background-color: #181a21;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+}
+.login_join_desc {
+  max-width: 60%;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #181a21;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+}
+.login_join_desc:hover {
+  color: #66c0f4;
+}
