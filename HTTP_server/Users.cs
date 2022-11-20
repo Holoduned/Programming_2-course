@@ -1,4 +1,4 @@
-﻿namespace Homework_01_10_22_week5;
+﻿namespace Http_Server;
 
 [HttpController("users")]
 internal class Users

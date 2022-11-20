@@ -7,7 +7,6 @@ using System.Reflection;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Homework_01_10_22_week5;
 
 namespace Http_Server
 {
@@ -90,8 +89,7 @@ namespace Http_Server
             output.Close();
         }
 
-        /*private void ListenerCallBack(IAsyncResult result) 
-        {
+/*        {
             if(_httpListener.IsListening)
             {
                 var _httpContext = _httpListener.EndGetContext(result);
