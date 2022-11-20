@@ -2,7 +2,7 @@
 
 public class FileManager
 {
-    public static byte[] getFile(string rawUrl, ServerSetting _serverSetting) 
+    public static byte[] getFile(string rawUrl, ServerSettings _serverSetting) 
     {
         byte[] buffer = null;
         var filePath = _serverSetting.Path + rawUrl;

@@ -1,6 +1,6 @@
 ﻿namespace Controlwork_19_11_2022;
 
-public class StringCut
+public class StringEditor
 {
     static public string Cut(string input)
     {
